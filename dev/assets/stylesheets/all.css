@@ -1,0 +1,163 @@
+@import url(preset.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+ul, li, ol {
+  margin: 0;
+  padding: 0;
+}
+
+.offscreen {
+  position: absolute;
+  left: -99999px;
+}
+
+body {
+  font-family: "Myriad Pro", "helvetica neue", helvetica, arial;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: url(../images/bg-pattern.png) repeat;
+  min-height: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: lato, "Myriad Pro";
+}
+
+h2 {
+  color: #e7e9ef;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0 0 7px;
+}
+
+#main {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#main h2 {
+  font-style: italic;
+  padding: 60px 30%;
+  margin: 0;
+} 
+
+#intro {
+  background: url(../images/banner.jpg) center center no-repeat;
+  height: 277px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.button {
+  text-align: center;
+  text-transform: uppercase;
+  background: #ff7e00;
+  background: linear-gradient(0, #ff7e00, #ff6600);
+  padding: 25px 40px;
+  font-size: 20px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 0px 40px 0px rgba(255,255,255,.2);
+  text-decoration: none;
+}
+
+.button:hover {
+  box-shadow: 0 0px 40px 0px rgba(255,255,255,.6);
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+#portfolio .item {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background-size: 100%;
+  background-position: top left;
+  border-top: 1px solid black;
+  margin-bottom: 100px;
+}
+
+#portfolio h3 {
+  text-align: left;
+  padding: 0;
+}
+
+#portfolio p {
+  font-size: 25px;
+  margin: 0 0 10px;
+}
+
+#portfolio .content {
+  float: left;
+  background: rgba(3, 20, 73, 0.95);
+  min-height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 50px 50px 0 50px;
+  color: white;
+  opacity: 0;
+  -webkit-transition: .3s opacity linear;
+}
+
+#portfolio .item:hover .content {
+  opacity: 1;
+}
+
+#portfolio .item:nth-child(odd) .content {
+  float: right;
+}
+
+#vote {
+  background-image: url('../images/portfolio/vote.jpg');
+}
+
+#recognize {
+  background-image: url('../images/portfolio/recognize.jpg');
+}
+
+#lyte {
+  background-image: url('../images/portfolio/lyte.jpg');
+}
+
+
+#recognize .content {
+  background: rgba(148, 175, 2, .95);
+}
+
+#vote .content {
+  background: rgba(0, 68, 106, 0.95);
+}
+
+#lyte .content {
+  background: rgba(71, 89, 111, 0.95);
+}
+
+footer { 
+  padding: 15px 10px;
+  text-align: center;
+  color: #686B6F;
+}
+
+@media(max-width: 768px) {
+  h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #intro {
+    background: url(../images/banner-mobile.jpg) center 0 no-repeat;
+    height: 216px;
+    
+  }
+  
+}
