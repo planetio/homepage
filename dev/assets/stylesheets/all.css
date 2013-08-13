@@ -119,12 +119,37 @@ h3 {
   min-height: 100%;
   width: 50%;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
   padding: 50px 50px 0 50px;
   color: white;
   opacity: 0;
   -webkit-transition: .3s opacity linear;
+  -moz-transition: .3s opacity linear;
+  transition: .3s opacity linear;
 }
 
+#portfolio .link {
+  border-radius: 3px;
+  padding: 7px 10px;
+  border: 1px solid #ff7e00;
+  color: #ff6600;
+  font-style: normal;
+  text-decoration: none;
+  background: transparent;
+  display: inline-block;
+  margin: 5px 0 0 0;
+}
+
+#portfolio .link:hover {
+  color: #FF8500;
+  border: 1px solid #FF8500;
+}
+
+#portfolio .link:active {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  transform: scale(1.15);
+}
 
 #portfolio .item:hover .content {
   opacity: .9;
@@ -148,7 +173,7 @@ h3 {
 
 #annotorious.item {
   background-image: url('../images/portfolio/annotorious.png');
-  max-height: 658px;
+  height: 658px;
   border: none;
 }
 
@@ -203,6 +228,13 @@ footer {
 }
 
 @media(max-width: 768px) {
+  #portfolio .item {
+    height: auto;
+    width: auto;
+    background-size: auto auto;
+    -moz-background-size: auto auto;
+  }
+  
   h2 {
     padding-left: 10px;
     padding-right: 10px;
@@ -214,4 +246,25 @@ footer {
     
   }
   
+}
+
+@media(max-width: 480px) {
+  #portfolio .item {
+    background: none;
+  }
+  #portfolio .content {
+    float: none !important;
+    width: 100%;
+    opacity: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #provide img {
+    float: none;
+  }
+  
+  #provide ul {
+    padding: 10px;
+  }
 }
