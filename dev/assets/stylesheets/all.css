@@ -152,6 +152,11 @@ h3 {
   border: none;
 }
 
+#annotorious .content {
+  position: relative;
+  top: -3px;
+}
+
 #clients.item {
   background-image: url('../images/portfolio/clients.png');
   background-size: auto auto;
@@ -163,8 +168,8 @@ h3 {
 
 #clients.item .content {
   opacity: 1;
-  border: 10px solid rgba(250,250,250,.1);
-  background-position: -10px -10px;
+  border: 10px solid rgba(250,250,250,.15);
+  background-position: -10px -268px;
 }
 
 #provide {
