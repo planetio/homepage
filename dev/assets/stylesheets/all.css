@@ -20,6 +20,10 @@ body {
   height: 100%;
 }
 
+.clear {
+  clear: both;
+}
+
 h1, h2, h3, h4, h5 {
   font-family: lato, "Myriad Pro";
 }
@@ -81,10 +85,21 @@ h3 {
   display: block;
   width: 100%;
   height: 600px;
+  max-width:  960px;
   background-size: 100%;
+  -webkit-background-size: 100%;
   background-position: top left;
-  border-top: 1px solid black;
   margin-bottom: 100px;
+  background-repeat: no-repeat;
+}
+
+
+@media (min-width: 960px) {
+  #portfolio .item {
+    margin-right: auto;
+    margin-left: auto;
+    border: 10px solid rgba(250,250,250,.1);
+  }
 }
 
 #portfolio h3 {
@@ -99,7 +114,8 @@ h3 {
 
 #portfolio .content {
   float: left;
-  background: rgba(3, 20, 73, 0.95);
+  background: transparent url('../images/nebula.jpg') left top no-repeat;
+  
   min-height: 100%;
   width: 50%;
   box-sizing: border-box;
@@ -109,8 +125,9 @@ h3 {
   -webkit-transition: .3s opacity linear;
 }
 
+
 #portfolio .item:hover .content {
-  opacity: 1;
+  opacity: .9;
 }
 
 #portfolio .item:nth-child(odd) .content {
@@ -129,17 +146,49 @@ h3 {
   background-image: url('../images/portfolio/lyte.jpg');
 }
 
-
-#recognize .content {
-  background: rgba(148, 175, 2, .95);
+#annotorious.item {
+  background-image: url('../images/portfolio/annotorious.png');
+  max-height: 658px;
+  border: none;
 }
 
-#vote .content {
-  background: rgba(0, 68, 106, 0.95);
+#clients.item {
+  background-image: url('../images/portfolio/clients.png');
+  background-size: auto auto;
+  -webkit-background-size: auto auto;
+  background-position: right center;
+  border: none;
+  height: 423px;
 }
 
-#lyte .content {
-  background: rgba(71, 89, 111, 0.95);
+#clients.item .content {
+  opacity: 1;
+  border: 10px solid rgba(250,250,250,.1);
+  background-position: -10px -10px;
+}
+
+#provide {
+  text-align: center;
+  max-width: 725px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+
+#provide img {
+  float: left;
+}
+
+#provide ul {
+  float: right;
+  text-align: left;
+  margin-top: 13px;
+  margin-bottom: 20px;
+}
+
+#provide li {
+  color: #fff;
+  font-size: 24px;
 }
 
 footer { 
