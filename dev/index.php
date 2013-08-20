@@ -1,26 +1,10 @@
-<!DOCTYPE html>
+<?php
+    $pathDepth = '';
+    $pageTitle = 'Digital Agency';
+    $pageId = '';
+    include('includes/head.php');
+?>
 
-<html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="initial-scale=1, user-scalable=no, maximum-scale=1" />
-	<title>Planet | Digital Agency | Web Development</title>
-  <meta name="google-site-verification" content="LkZ8-Xel0EqIYISuYoydd3YcaHM6F8jDyJ329wrZeWU" />  <link rel="stylesheet" href="assets/stylesheets/all.css" type="text/css" media="screen" title="no title" charset="utf-8">
-  
-	<link rel="shortcut icon" href="assets/images/icon.png" />
-  <link rel="image_src" href="assets/images/icon.png" />
-  
-  <meta name="description" content="A digital agency transforming great ideas into responsive web experiences." />
-	<meta name="keywords" content="responsive layouts, responsive design, ruby on rails, ror, alex grande, san francisco, mission, web development, JavaScript development sf, phonegap development" />
-  
-  <meta property="og:title" content="Planet | Web Development Agency" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Planet.io" />
-  <meta property="og:description" content="A digital agency transforming great ideas into responsive web experiences." />
-  <meta property="og:image" content="assets/images/icon.png"/>
-	
-	
-</head>
 <body>
   <div class="wrapper">    
     <section id="intro">
@@ -101,23 +85,6 @@
     
 
   
-    <footer>
-      <p>Planet: Specializes in Ruby on Rails, JavaScript, HTML5, UI Design, Agile, and Lean strategy.</p>
-      <p>Blog: <a href="http://planet.io/blog">It's Not Rocket Science</a></p>
-      <p>Locations: San Francisco and Chicago</p>
-      
-    </footer>
-  
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-41405880-1', 'planet.io');
-      ga('send', 'pageview');
-
-    </script>
-    
+    <?php include("includes/footer.php")?>
 </body>
 </html>

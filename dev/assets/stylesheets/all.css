@@ -219,12 +219,50 @@ h3 {
 #provide li {
   color: #fff;
   font-size: 24px;
+  list-style-position: inside;
 }
 
 footer { 
   padding: 15px 10px;
   text-align: center;
   color: #686B6F;
+}
+
+header {
+  height: 35px;
+  text-align: center;
+  position: relative;
+  background: url(../images/bg-pattern.png) repeat;
+  padding: 10px 0;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+}
+
+header a {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+
+header img {
+  width: 180px;
+}
+
+.sub-page {
+  background: #4C6164;
+}
+
+.sub-page a {
+  color: #ff7e00;
+}
+
+.sub-page h2, h3, h4, h5, h6, p, li, span {
+  color: #fff;
 }
 
 @media(max-width: 768px) {
@@ -249,9 +287,19 @@ footer {
 }
 
 @media(max-width: 480px) {
-  #portfolio .item {
+  #main h2 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #portfolio .content {
     background: none;
   }
+  
+  #portfolio .item  {
+    background: none;
+  }
+  
   #portfolio .content {
     float: none !important;
     width: 100%;

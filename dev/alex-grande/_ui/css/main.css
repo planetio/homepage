@@ -1,0 +1,127 @@
+#main-content, #side-content {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 600px;
+    text-overflow: ellipsis;
+}
+
+#main-content ul {
+    padding: 0;
+    margin-left: 0;
+}
+
+#main-content {
+    float: left;
+    width: 25%;
+    margin-right: 3%;
+    display: none;
+}
+
+#main-content,
+#side-content {
+  padding-top: 40px;
+}
+
+#main-content li {
+    list-style: none;
+    text-overflow: ellipsis;
+    text-align: left;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: greyscale, greyscaleIE, helvetica, arial;
+    margin-bottom: 1px;
+    padding-left: 10px;
+}
+
+#main-content li.hover {
+    background: #658385;
+}
+
+#main-content li:not(.hover):hover,
+#side-content .job:not(.hover):hover {
+  background: #658385;
+}
+
+#main-content li.hover {display: block;}
+
+#side-content .job {
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 90%;
+}
+
+#side-content h2:first-child {
+  margin-top: 0;
+}
+
+#side-content .job.hover {
+    background: #658385;
+}
+
+#side-content h2 {
+    margin-bottom: 0;
+}
+
+#side-content {
+    float: right;
+    width: 70%;
+}
+
+#main-content li {
+  line-height: 37px;
+}
+
+@media (max-width: 480px) {
+  #main-content {
+    display: none;
+  }
+  
+  #side-content {
+    width: 100%;
+    float: none;
+  }
+  
+  #side-content .job {
+    width: 100%;
+  }
+  
+  #main-content, #side-content {
+    overflow: visible;
+  }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background: #C8C8C8;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+.wrapper > section {
+  border-bottom: 0 !important;
+}
+
+@media (max-width: 480px) {
+  #main-content {
+    display: none !important;
+  }
+  
+  header a {
+    width: 40px;
+    overflow: hidden;
+  }
+}
