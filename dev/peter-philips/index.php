@@ -1,6 +1,6 @@
 <?php
     $pathDepth = '';
-    $pageTitle = 'Alex Grande\'s Resume';
+    $pageTitle = 'Peter Philips\'s Resume';
     $pageId = '';
     include('../includes/head.php');
     include('../includes/header.php');
@@ -14,113 +14,127 @@
     
     <section id="main-content" class="content-buckets">
       <ul>
-        <li id="javascript">Javascript</li>
-        <li id="css">CSS</li>
-        <li id="jquery">jQuery</li>
-        <li id="html">HTML5  </li>
-        <li id="ux">UX Design</li>
-        <li id='ui'>UI Design</li>
-        <li id="stategy">Strategy</li>
-        <li id='seo'>SEO</li>
-        <li id='mobile'>Mobile</li>
-        <li id="ror">Ruby on Rails</li>
-        <li id="webkit">Webkit </li>
-        <li id="phonegap">PhoneGap</li>
-        <li id="ios">Mobile Safari</li>
-        <li id="android_browser">Android Browser</li>
-        <li id="fb-graph">FB Graph API</li>
-        <li id="dom">DOM </li>
-        <li id="java">Java</li>
-        <li id="node">Node.js</li>
-        <li id="android">Android</li>
-        <li id="jquerymobile">jQueryMobile</li>
-        <li id="ada">ADA standards</li>
-        <li id="php">PHP </li>
+        <?php 
+          $skills = array(
+            'ror' => 'RoR',
+            'rspec' => 'Rspec',
+            'php' => 'Php',
+            'aws' => 'AWS',
+            'servers' => 'Servers',
+            'js' => 'Javascript',
+            'opensource' => 'Open Source',
+            'nonprofit' => 'Non Profit',
+            'wordpress' => 'Wordpress',
+            'systems' => 'Systems Design',
+            'apache' => 'Apache',
+            'jquery' => 'jQuery',
+            'mysql' => 'Postgresql',
+            'tcp' => 'Full stack network management',
+            'nginx' => 'Nginx',
+            'svn' => 'SVN',
+            'git' => 'Git',
+            'bzr' => 'Bazaar',
+            'ci' => 'Continuous Integration',
+            'civicrm' => 'CiviCRM',
+            'devops' => 'DevOps',
+            'oauth' => 'Oauth integration',
+            'heroku' => 'Heroku',
+            'cc' => 'Credit Card Processing',
+            'agile' => 'Agile',
+            'adobe' => 'Adobe CS',
+            'photo' => 'Photography',
+            'video' => 'Videography'
+            );
+        ?>
+
+        <?php 
+        foreach($skills as $key => $value) {
+          echo "<li id='$key'>".$value."</li>";
+        }
+        ?>
+
       </ul>
  
     </section>
     
     <aside id="side-content" class="content-buckets">
-      <div class="job ux ui javascript css seo mobile html ror stategy">
+      <div class="job ror js rspec aws servers rspec opensource systems apache jquery mysql nginx git oauth agile devops">
         <h3>Co-Founder, Planet (planet.io) 8/2012 - present</h3>
-        <ul>    
-          <li><strong>Conceptualized and built a social employee recognition platform, <a href="http://www.recognizeapp.com">Recognize</a>.</strong></li>
-          <li>Performing business development by interviewing customers and finding agency work.</li>
-          <li>Manage an international team of four technology professionals.</li>
-          <li>Architected the flow of web apps, including Recognize and our to be released app, Lyte.</li>
-          <li>Designed responsive web applications for Mobile, Tablet, and Desktop.</li>
-          <li>Perform a/b testing and detailed analytics using Mixpanel and RoR.</li>
-          <li>Write blog posts for <a href="http://blog.recognizeapp.com">Recognize</a> and <a href="http://planet.io/blog">Planet</a>.</li>
+        <ul> 
+          <li>Conceptualized, launched and scaled social web apps: <a href="http://recognizeapp.com" target="_blank">Recognize</a>, <a href="http://lyte.io" target="_blank">Lyte</a>.</li>
+          <li>Designed and developed scalable application architecture using test driven development.</li>
+          <li>Automated a deployment architecture across aws infrastructure using capistrano</li>
+          <li>Scaled out server architectures using Amazon web services, linode, and heroku.</li>
+          <li>Perform multi-variant testing and detailed analytics using latest analytics tools(segment, heap, google, mixpanel).</li>
+          <li>Contributing to the open source movement weekly: <a href="http://github.com/synth">Github</a>.</li>
         </ul>
       </div>
-      <div class="job ux ui javascript css fb-graph webkit ror android seo mobile jquery html stategy" >
-        <h3>Freelance Web Developer / Information Architect (alexgrande.com) 4/2012 - present</h3>
+
+      <div class="job ror js rspec opensource systems apache jquery mysql cc agile bzr" >
+        <h3>Lead Engineer, Latitu.de 4/2011 - 5/2013 </h3>
         <ul>    
-          <li>Wireframing coherent and design usable experiences.</li> 
-          <li>Managing clients, hiring freelancers, and providing business solutions.</li>
-          <li>Creating HTML5 / Rails applications.</li>
-          <li>Writing javascript patterns and frameworks, such as Horizon a view management library for HTML5 mobile applications.</li>
-          <li>Wrote mobile support for Annotorious JavaScript annotation tool.</li>
-          <li><strong>Built robost voting station finder app for the Obama 2012 campaign.</strong></li>
+          <li>Upgraded a broken legacy app to latest version of Rails with full test coverage.</li>
+          <li>Built a workflow engine that automatically manages the design process between a designer and client.</li>
+          <li>Designed and implemented a realtime collaborative annotation tool.</li>
+          <li>Managed an international development team.</li>
         </ul>
       </div>
-      <div class="job javascript googleapi fb-graph node css jquery html webkit phonegap ios android android_browser blackberry ux ui dom java jquerymobile googleapis mobile" >
-        <h3>Software Engineer, UX Designer, Rearden Commerce (reardencommerce.com) 10/2010 - 4/2012</h3>
+
+      <div class="job ror php apache wordpress opensource tcp nonprofit systems servers civicrm photo video mysql" >
+        <h3>IT Director, NWBCCC 2009 - 2011 </h3>
         <ul>    
-          <li><strong>Built a webkit mobile web app framework supporting Blackberry 6, Android, and iOS. "It looks like a native app on iOS." "Runs very fast on Android and Blackberry." "Builds apps in minutes."</strong></li> 
-          <li>Deployed mobile applications for fortune 500 companies.</li>
-          <li>Pushed for high quality design in CSS first, rather than Photoshop. Developed features from concept to finished product.</li>
-          <li>Wrote javascript using tried and true design patterns for flexibility and reuse.</li>
-          <li>Wrote native Android Phonegap plugins.</li>
-          <li>Started a Mobile Team Food Co-op, to promote healthy energized living.</li>
-          <li>Spoken at over seven company meetings promoting leadership, design, recycling, and HTML5.</li>
-          <li>Introduced biodegradable utensils and started a battery recycling program.</li>
-          <li>"Please clone yourself, we need more people like you." - VP of Mobile.</li>
-          <li>"You are a powerful man." - CEO / Founder.</li>
+          <li>Maintained a WAN infrastructure which includes a 50 station main office and 3 smaller 
+remote offices connected via IPSEC VPN.</li>
+          <li>Maintained the coalition’s website and linux and windows based intranet servers.</li>
+          <li>Responsible for all research, purchase, and execution of all technology equipment and 
+contracts utilized by the coalition.</li>
+          <li>Managed the transition from a proprietary organizational database to the open source 
+database, CiviCrm.</li>
+          <li>Managed a complete network infrastructure overhaul by managing 4 separate contractors. 
+The overhaul included a bandwidth upgrade and the transition from a linux based server 
+architecture to a Windows Active Directory based architecture</li>
+          <li>Assisted with social media campaigns through flickr, twitter, and facebook</li>
+          <li>Acted as primary photographer, videographer, and video editor. Also, delegated coverage 
+and editing responsibilities to 5 full time staff community organizers and a multitude of 
+volunteers</li>
+
         </ul>
       </div>
-      <div class="job javascript googleapi css jquery html webkit phonegap ios android blackberry ux ui dom java jquerymobile ror mysql sqlite ydl php mobile stategy">
-      
-      <h3>Mobile Developer, Designer, Co-Founder, Pharaoh (wearepharaoh.com), 2/2010 - 11/2010</h3>
-      
-      <ul><li>Created partnerships with a number of companies in Seattle, including http://www.seattlesbest.com.</li> 
-        <li>Managed and developed Blackberry applications, such as a product wizard for James Hardie.</li> 
-        <li>Performed ground-breaking mobile HTML5 and Javascript for http://www.mugtug.com/darkroom.</li> 
-        <li>Designed and built Android applications like Scoop on the Android Market.</li>
-        <li>Explored Appcelerator to quickly prototype cross-platform mobile applications.</li> 
-        <li><strong>Received over a million impressions a month on native Android and iPhone apps.</strong></li>
-        <li>Used government open data to build mobile web apps.</li></ul>
-        </div>
-        <div class="job ror javascript css jquery dom html ajax mobile ada php">
-        
-      <h3>Web Developer, Pop (pop.us), 4/2008 - 2/2010</h3>
-      <ul>
-        <li>Lead front end web development on over 20 projects for Fortune 500 companies using OOP JS, .NET, CSS. 
-        <li>Spearheaded mobile initiatives and built a cross-platform mobile website for Prime Retail.</li>
-        <li>http://www.flowwaterjet.com/, http://www.target.com/education, http://www.celebritysportsshowdown.com, http://www.mtc.com.au, and http://www.siff.net, http://www.primeretail.com, http://b-f.com.</li></ul>
-        </div>
-        <div class="job javascript java jquery css dom">
-        
-      <h3>Web Developer, eMedTV (emedtv.com), 11/2007 - 4/2008</h3>
-      <ul>
-      <li>Cleaned eMedTV.com obstructive javascript and CSS from JSP templates.</li> 
-      <li>Refactored javascript and CSS to make the website more efficient. 
-      <li>Created a javascript medical experiment sign up form with Google Maps, Ajax, and CSS.</li></ul>
+
+      <div class="job php opensource nonprofit wordpress tcp photo video" >
+        <h3>IT Coordinator / Satellite Technician, Free Gaza Movement 2008 - 2009 </h3>
+        <ul>    
+          <li>Primarily responsible for maintaining and operating the satellite systems for 2 boats 
+traveling from Greece to the Gaza strip in order to provide live video feeds from sea</li>
+          <li>Designed and implemented the video feed system that interfaced between the journalists 
+aboard and our upstream video provider</li>
+          <li>Dispatched updates from sea via satellite to the Free Gaza website</li>
+        </ul>
       </div>
-      <div class="job php javascript css">
-      
-      <h3>Web Developer, Rory Martin (rorymartin.com), 9/2006 - 11/2007</h3>
-      <ul><li> Utilized Blogger, Wordpress, and Joomla as Content Management Systems. </li>
-      <li>Built website templates in HTML, CSS, and JS in PHP template websites.</li></ul>
+
+      <div class="job ror servers js rspec systems apache jquery mysql svn git bzr ci devops cc agile" >
+        <h3>Lead Engineer, Lifebooker LLC 2006 - 2008 </h3>
+        <ul>    
+          <li>Managed a team of 4 developers (front & Back end) to design and develop a highly 
+transactional and concurrent online reservation system using all aspects of the Ruby-onRails framework including AJAX technologies with a MySQL backend database</li>
+          <li>Developed custom-built dynamic calendaring system to manage reservations utilizing AJAX
+technology with backend rule engine using the Rools gem to manage booking conflicts</li>
+          <li>Developed primary search algorithm using asynchronous daemon processes in combination 
+with MemCache and HTML, CSS, Javascript and image caching to provide fast, efficient search 
+results</li>
+           <li>Implemented a continuous integration setup utilizing CruiseControl in order to 
+consistently drive our test suites daily after changes to Subversion source repositories</li>
+        </ul>
       </div>
+
+
       <h2>Education</h2>
-      <h3>Psychology, Western Washington University</h3>
+      <h3>BS Computer Science, BS Biology - City Univeristy of New York</h3>
       <ul style="padding-bottom: 10px;">
-        <li>Managed Visual Perception Cognition Lab and lead visual memory experiment with over 100 participants.</li>           
-        <li><strong>Published author in social cognition.</strong></li>
-        <li>Founded a world music festival.</li>
+        <li>Magna Cum Laude</li>           
+        <li><strong>Published author in nanotechnology(cell membrane simulations)</strong></li>
       </ul>
-    
+
     </aside>
     
   </section>

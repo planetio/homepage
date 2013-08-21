@@ -50,7 +50,7 @@
         <div class="content">
           <h3>Touch-enabled HTML5 Annotation Tool</h3>
           <p>Latitude Network came to us to build out a responsive, tablet-ready annotation tool.</p>
-          <p>We utilized the Annotarious library, and contributed back by pull requesting touch events.</p>
+          <p>We utilized the Annotorious library, and contributed back by pull requesting touch events.</p>
           <a href="https://github.com/planetio/annotorious" class="link" target="_blank">Visit the github source</a>
         </div>
       </div>

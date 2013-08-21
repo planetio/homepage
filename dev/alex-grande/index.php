@@ -47,7 +47,7 @@
           <li><strong>Conceptualized and built a social employee recognition platform, <a href="http://www.recognizeapp.com">Recognize</a>.</strong></li>
           <li>Performing business development by interviewing customers and finding agency work.</li>
           <li>Manage an international team of four technology professionals.</li>
-          <li>Architected the flow of web apps, including Recognize and our to be released app, Lyte.</li>
+          <li>Architected the flow of web apps, including Recognize and our to be released app, <a href="http://lyte.io">Lyte</a>.</li>
           <li>Designed responsive web applications for Mobile, Tablet, and Desktop.</li>
           <li>Perform a/b testing and detailed analytics using Mixpanel and RoR.</li>
           <li>Write blog posts for <a href="http://blog.recognizeapp.com">Recognize</a> and <a href="http://planet.io/blog">Planet</a>.</li>
@@ -113,6 +113,7 @@
       <ul><li> Utilized Blogger, Wordpress, and Joomla as Content Management Systems. </li>
       <li>Built website templates in HTML, CSS, and JS in PHP template websites.</li></ul>
       </div>
+
       <h2>Education</h2>
       <h3>Psychology, Western Washington University</h3>
       <ul style="padding-bottom: 10px;">
