@@ -23,11 +23,12 @@
             'mysql' => 'MySQL',
             'aws' => 'AWS',
             'git' => 'Git',
-            'oauth' => 'OAuth integration',
+            'oauth' => 'OAuth',
             'agile' => 'Agile',
             'servers' => 'Linux servers',
             'nginx' => 'Nginx',
             'js' => 'Javascript',
+            'ecommerce' => 'E-commerce',
             'opensource' => 'Open source',
             'php' => 'Php',
             'wordpress' => 'Wordpress',
@@ -96,18 +97,16 @@ volunteers</li>
         </ul>
       </div>
 
-      <div class="job mysql servers devops opensource tcp" >
-        <h3>IT Coordinator / Satellite Technician, Free Gaza Movement 2008 - 2009 </h3>
+      <div class="job ruby ror rspec mysql aws ecommerce jquery cc" >
+        <h3>Lead Engineer,  Trunkt(now Etsy Wholesale) 2009 - 2010 </h3>
         <ul>    
-          <li>Primarily responsible for maintaining and operating the satellite systems for 2 boats 
-traveling from Greece to the Gaza strip in order to provide live video feeds from sea</li>
-          <li>Designed and implemented the video feed system that interfaced between the journalists 
-aboard and our upstream video provider</li>
-          <li>Dispatched updates from sea via satellite to the Free Gaza website</li>
+            <li>Developed core infrastructure for an e-commerce application using Ruby on Rails.</li>
+            <li>Utilized facebook api's for social integration and authorize.net's api for payment processing</li>
+            <li>Scaled application horizontally using AWS's EC2 and S3</li>
         </ul>
       </div>
 
-      <div class="job ruby ror rspec mysql postgresql ci devops cc jquery js nginx apache agile" >
+      <div class="job ruby ror rspec mysql postgresql ci devops cc jquery js nginx apache agile ecommerce systems" >
         <h3>Lead Engineer, Lifebooker LLC 2006 - 2008 </h3>
         <ul>    
           <li>Managed a team of 4 developers (front & Back end) to design and develop a highly 
