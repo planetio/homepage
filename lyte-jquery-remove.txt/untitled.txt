@@ -1,0 +1,31 @@
+things that use jquery
+
+- bootstrap tooltip
+- Placeholder library
+- jQuery autocomplete
+- Infinite scroll library
+- jquery mobile events
+
+- Isotope (But the new http://packery.metafizzy.co/ doesn't)
+- ios checkbox library (Not currently using in Lyte)
+
+
+- $
+- dom load
+- .css
+- .on, .off, .bind
+- ajax
+- each
+- attr
+- data
+- toggleclass, removeclass, addclass, 
+- hide
+- submit
+- append
+- replaceWith
+- has class
+- closest
+- load
+- remove
+- next
+- val
