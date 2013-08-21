@@ -16,7 +16,8 @@
       <ul>
         <?php 
           $skills = array(
-            'ror' => 'RoR',
+            'ruby' => 'Ruby'
+            'ror' => 'Rails',
             'rspec' => 'Rspec',
             'php' => 'Php',
             'aws' => 'AWS',
