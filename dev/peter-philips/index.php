@@ -16,35 +16,29 @@
       <ul>
         <?php 
           $skills = array(
-            'ruby' => 'Ruby'
+            'ruby' => 'Ruby',
             'ror' => 'Rails',
             'rspec' => 'Rspec',
-            'php' => 'Php',
+            'mysql' => 'MySQL',
             'aws' => 'AWS',
-            'servers' => 'Servers',
+            'git' => 'Git',
+            'oauth' => 'OAuth integration',
+            'systems' => 'Systems design',
+            'agile' => 'Agile',
+            'servers' => 'Linux servers',
+            'nginx' => 'Nginx',
             'js' => 'Javascript',
-            'opensource' => 'Open Source',
-            'nonprofit' => 'Non Profit',
+            'opensource' => 'Open source',
+            'php' => 'Php',
             'wordpress' => 'Wordpress',
-            'systems' => 'Systems Design',
             'apache' => 'Apache',
             'jquery' => 'jQuery',
-            'mysql' => 'Postgresql',
+            'postgresql' => 'Postgresql',
             'tcp' => 'Full stack network management',
-            'nginx' => 'Nginx',
-            'svn' => 'SVN',
-            'git' => 'Git',
             'bzr' => 'Bazaar',
-            'ci' => 'Continuous Integration',
-            'civicrm' => 'CiviCRM',
+            'ci' => 'Continuous integration',
             'devops' => 'DevOps',
-            'oauth' => 'Oauth integration',
-            'heroku' => 'Heroku',
-            'cc' => 'Credit Card Processing',
-            'agile' => 'Agile',
-            'adobe' => 'Adobe CS',
-            'photo' => 'Photography',
-            'video' => 'Videography'
+            'cc' => 'Credit card processing'
             );
         ?>
 
