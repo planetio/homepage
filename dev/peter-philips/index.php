@@ -18,12 +18,12 @@
           $skills = array(
             'ruby' => 'Ruby',
             'ror' => 'Rails',
+            'systems' => 'Systems architect',
             'rspec' => 'Rspec',
             'mysql' => 'MySQL',
             'aws' => 'AWS',
             'git' => 'Git',
             'oauth' => 'OAuth integration',
-            'systems' => 'Systems design',
             'agile' => 'Agile',
             'servers' => 'Linux servers',
             'nginx' => 'Nginx',
@@ -53,7 +53,7 @@
     </section>
     
     <aside id="side-content" class="content-buckets">
-      <div class="job ror js rspec aws servers rspec opensource systems apache jquery mysql nginx git oauth agile devops">
+      <div class="job ruby ror rspec mysql aws git oauth systems agile servers js opensource apache jquery devops">
         <h3>Co-Founder, Planet (planet.io) 8/2012 - present</h3>
         <ul> 
           <li>Conceptualized, launched and scaled social web apps: <a href="http://recognizeapp.com" target="_blank">Recognize</a>, <a href="http://lyte.io" target="_blank">Lyte</a>.</li>
@@ -65,7 +65,7 @@
         </ul>
       </div>
 
-      <div class="job ror js rspec opensource systems apache jquery mysql cc agile bzr" >
+      <div class="job ruby ror rspec mysql aws git oauth systems agile servers js opensource apache jquery bzr ci devops cc" >
         <h3>Lead Engineer, Latitu.de 4/2011 - 5/2013 </h3>
         <ul>    
           <li>Upgraded a broken legacy app to latest version of Rails with full test coverage.</li>
@@ -75,7 +75,7 @@
         </ul>
       </div>
 
-      <div class="job ror php apache wordpress opensource tcp nonprofit systems servers civicrm photo video mysql" >
+      <div class="job mysql systems servers opensource php wordpress apache devops tcp" >
         <h3>IT Director, NWBCCC 2009 - 2011 </h3>
         <ul>    
           <li>Maintained a WAN infrastructure which includes a 50 station main office and 3 smaller 
@@ -96,7 +96,7 @@ volunteers</li>
         </ul>
       </div>
 
-      <div class="job php opensource nonprofit wordpress tcp photo video" >
+      <div class="job mysql servers devops opensource tcp" >
         <h3>IT Coordinator / Satellite Technician, Free Gaza Movement 2008 - 2009 </h3>
         <ul>    
           <li>Primarily responsible for maintaining and operating the satellite systems for 2 boats 
@@ -107,7 +107,7 @@ aboard and our upstream video provider</li>
         </ul>
       </div>
 
-      <div class="job ror servers js rspec systems apache jquery mysql svn git bzr ci devops cc agile" >
+      <div class="job ruby ror rspec mysql postgresql ci devops cc jquery js nginx apache agile" >
         <h3>Lead Engineer, Lifebooker LLC 2006 - 2008 </h3>
         <ul>    
           <li>Managed a team of 4 developers (front & Back end) to design and develop a highly 
