@@ -1,6 +1,6 @@
 <?php
     $pathDepth = '';
-    $pageTitle = 'Digital Agency';
+    $pageTitle = 'Web Development';
     $pageId = '';
     include('includes/head.php');
 ?>
@@ -79,7 +79,7 @@
       </ul>
       <div class="clear"></div>
       <div style="text-align: center;">
-        <a href="mailto:alex@planet.io" class="button" style="display:inline-block; margin: 20px 0;">We love to talk shop. Contact us for a free strategy meeting.</a>
+        <a href="mailto:alex@planet.io" class="button" style="display:inline-block; margin: 20px 0;">We love to talk shop. Contact us for a free interactive strategy meeting.</a>
       </div>
     </section>
     
