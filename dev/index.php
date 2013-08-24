@@ -8,7 +8,7 @@
 <body>
   <div class="wrapper">    
     <section id="intro">
-      <h1 class="offscreen">Planet | Digital Agency | Web Development</h1>
+      <h1 class="offscreen">Planet | Interactive Agency | Web Development</h1>
     </section>
     
     <section id="main">
@@ -41,7 +41,7 @@
       <div id="vote" class="item">
         <div class="content">
           <h3>Helping America Vote</h3>
-          <p>For the 2012 election, we built a voting station finder for the Obama campaign. </p>
+          <p>For the 2012 election, we built a voting station finder for the Obama campaign.</p>
             <p>Localized to Español, fully responsive to tablet and mobile, remembers state, utilizes HTML5 geolocation, and was built in under a week.</p>
         </div>
       </div>
@@ -49,7 +49,7 @@
       <div id="annotorious" class="item">
         <div class="content">
           <h3>Touch-enabled HTML5 Annotation Tool</h3>
-          <p>Latitude Network came to us to build out a responsive, tablet-ready annotation tool.</p>
+          <p>Latitude Network came Planet interactive agency to us to build out a responsive, tablet-ready annotation tool.</p>
           <p>We utilized the Annotorious library, and contributed back by pull requesting touch events.</p>
           <a href="https://github.com/planetio/annotorious" class="link" target="_blank">Visit the github source</a>
         </div>
@@ -57,7 +57,7 @@
       
       <div id="clients" class="item">
         <div class="content">
-          <h3>Startups to Fortune 500</h3>
+          <h3>Interactive development for startups to Fortune 500</h3>
           <p>Planet has helped Microsoft, Target, Seattle's Best, and many other companies with web development.</p>
         </div>
       </div>
@@ -79,7 +79,7 @@
       </ul>
       <div class="clear"></div>
       <div style="text-align: center;">
-        <a href="mailto:alex@planet.io" class="button" style="display:inline-block; margin: 20px 0;">We love to talk shop. Contact us for a free interactive strategy meeting.</a>
+        <a href="mailto:alex@planet.io" class="button" style="display:inline-block; margin: 20px 0;">Contact us for a free strategy meeting.</a>
       </div>
     </section>
     
