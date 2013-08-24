@@ -58,7 +58,7 @@
       <div id="clients" class="item">
         <div class="content">
           <h3>Interactive development for startups to Fortune 500</h3>
-          <p>Planet has helped Microsoft, Target, Seattle's Best, and many other companies with web development.</p>
+          <p>Planet has helped Microsoft, Target, Seattle's Best, and many other companies with web development</p>
         </div>
       </div>
 
