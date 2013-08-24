@@ -12,7 +12,7 @@
     </section>
     
     <section id="main">
-      <h2>A digital agency transforming great ideas into responsive web experiences.</h2>
+      <h2>An interactive agency transforming great ideas into responsive web experiences.</h2>
       <a href="mailto:alex@planet.io" class="button">Contact us</a>
     </section>
     
