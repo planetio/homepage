@@ -235,13 +235,7 @@ a {
     margin: 0 auto 50px;
     width: 478px;
     padding: 0;
-    text-align: center;
   }
-
-  #wrapper #who img {
-    margin-bottom: 15px;
-  }
-
 
 
   #wrapper #who .person:last-child {
@@ -281,7 +275,6 @@ a {
   #how-steps {
     width: auto;
   }
-  
 }
 
 #products-projects h3 {
@@ -417,6 +410,15 @@ a {
 @media (max-width: 496px) {
   #wrapper #who .person {
     width: auto;
+  }
+
+  #wrapper #who .person {
+    text-align: center;
+  }
+
+  #wrapper #who .person img {
+    display: inline;
+    margin-bottom: 15px;
   }
 
   #who .person img {
