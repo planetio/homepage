@@ -350,6 +350,10 @@ a {
       -moz-background-size: auto auto;
       height: 390px;
     }
+
+    #location .content {
+      top: 130px;
+    }
  }
 
 

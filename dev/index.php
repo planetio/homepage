@@ -67,7 +67,7 @@
           <div class="content">
             <h4>Peter Philips<br>Software engineer &amp; sysadmin</h4>
             <p>A veteran in software engineering with an intense focus in Ruby on Rails, test-driven development, and mindfulness.</p>
-            <p>Peter’s code is changing the world for the better. He is the founder TechForProgress.com, a blog highlighting technology's role in humanitarian context.</p>
+            <p>Peter’s code is changing the world for the better. He is the founder TechForProgress.com, a site highlighting technology's role in a humanitarian context.</p>
             <a href="/peter-philips/" target="_blank" class="btn">Peter's Resume</a>
           </div>
         </div>
