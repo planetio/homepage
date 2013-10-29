@@ -86,7 +86,7 @@
     </div>
 
     <div id="how" class="section">
-      <h3>How we build applications</h3>
+      <h3>How We Build Applications</h3>
       <ul id="how-steps">
         <li>
           <img src="/assets/images/how/rails.jpg" alt="Ruby on Rails">
@@ -114,7 +114,7 @@
 
     <div id="products-projects" class="section clearfix">
       <div id="products" class="pro">
-        <h3>Our products</h3>
+        <h3>Our Products</h3>
         <ul>
           <li class="clearfix">
             <img src="/assets/images/pro/recognize.png" alt="Recognize">
@@ -134,7 +134,7 @@
       </div>
 
       <div id="projects" class="pro">
-        <h3>Open source projects</h3>
+        <h3>Open Source Projects</h3>
         <ul>
           <li class="clearfix">
             <img src="/assets/images/pro/annotorious.png" alt="annotorious">
@@ -164,13 +164,13 @@
 
     <div id="location" class="section">
       <div class="content">
-        <h3>Visit us at Runway Incuabator, San Francisco</h3>
+        <h3>Visit Us At Runway Incuabator, San Francisco</h3>
         <p class="subline">1355 Market St. #488, 94103, CA</p>
       </div>
     </div>
 
     <div id="contact-wrapper" class="section">
-      <h3>What is your vision? Let's build it.</h3>
+      <h3>What Is Your Vision? Let's Build It.</h3>
       <a href="mailto:alex@planet.io" class="btn btn-lg">Contact Us</a>
     </div>
 
