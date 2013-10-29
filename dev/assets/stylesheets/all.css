@@ -191,13 +191,14 @@ a {
 }
 
 #who .person-wrapper {
-  width: 1160px;
+  max-width: 1160px;
+
   margin: auto;
 }
 
 #who .person {
   float: left;
-  width: 40%;
+  width: 45%;
   text-align: left;
 }
 
