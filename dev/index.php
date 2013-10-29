@@ -113,53 +113,54 @@
     </div>
 
     <div id="products-projects" class="section clearfix">
-      <div id="products" class="pro">
-        <h3>Our Products</h3>
-        <ul>
-          <li class="clearfix">
-            <img src="/assets/images/pro/recognize.png" alt="Recognize">
-            <div class="content">
-              <a href="http://www.recognizeapp.com" target="_blank"><h4>Recognizeapp.com</h4></a>
-              <p>An employee appreciation system for businesses to socially praise their best.</p>
-            </div>
-          </li>
-          <li class="clearfix">
-            <img src="/assets/images/pro/lyte.png" alt="lyte">
-            <div class="content">
-              <a href="http://lyte.io" target="_blank"><h4>Lyte.io</h4></a>
-              <p>A project communcation app we use to organize projects with our clients.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
+      <div id="pro-wrapper">
+        <div id="products" class="pro">
+          <h3>Our Products</h3>
+          <ul>
+            <li class="clearfix">
+              <img src="/assets/images/pro/recognize.png" alt="Recognize">
+              <div class="content">
+                <a href="http://www.recognizeapp.com" target="_blank"><h4>Recognizeapp.com</h4></a>
+                <p>An employee appreciation system for businesses to socially praise their best.</p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <img src="/assets/images/pro/lyte.png" alt="lyte">
+              <div class="content">
+                <a href="http://lyte.io" target="_blank"><h4>Lyte.io</h4></a>
+                <p>A project communcation app we use to organize projects with our clients.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
 
-      <div id="projects" class="pro">
-        <h3>Open Source Projects</h3>
-        <ul>
-          <li class="clearfix">
-            <img src="/assets/images/pro/annotorious.png" alt="annotorious">
-            <div class="content">
-              <a href="http://annotorious.github.io/" target="_blank"><h4>Annotorious</h4></a>
-              <p>An annotation tool for images. We provided the touch support.</p>
-            </div>
-          </li>
-          <li class="clearfix">
-            <img src="/assets/images/pro/modernizr.png" alt="modernizr">
-            <div class="content">
-              <a href="http://modernizr.com/" target="_blank"><h4>Modernizr</h4></a>
-              <p>An JavaScript library to test browser capabilities.</p>
-            </div>
-          </li>
-           <li class="clearfix">
-            <img src="/assets/images/pro/capistrano.png" alt="capistrano">
-            <div class="content">
-              <a href="http://www.capistranorb.com/" target="_blank"><h4>Capistrano</h4></a>
-              <p>A Ruby library to help with application deployments.</p>
-            </div>
-          </li>         
-        </ul>
+        <div id="projects" class="pro">
+          <h3>Open Source Projects</h3>
+          <ul>
+            <li class="clearfix">
+              <img src="/assets/images/pro/annotorious.png" alt="annotorious">
+              <div class="content">
+                <a href="http://annotorious.github.io/" target="_blank"><h4>Annotorious</h4></a>
+                <p>An annotation tool for images. We provided the touch support.</p>
+              </div>
+            </li>
+            <li class="clearfix">
+              <img src="/assets/images/pro/modernizr.png" alt="modernizr">
+              <div class="content">
+                <a href="http://modernizr.com/" target="_blank"><h4>Modernizr</h4></a>
+                <p>An JavaScript library to test browser capabilities.</p>
+              </div>
+            </li>
+             <li class="clearfix">
+              <img src="/assets/images/pro/capistrano.png" alt="capistrano">
+              <div class="content">
+                <a href="http://www.capistranorb.com/" target="_blank"><h4>Capistrano</h4></a>
+                <p>A Ruby library to help with application deployments.</p>
+              </div>
+            </li>         
+          </ul>
+        </div>
       </div>
-
     </div><!-- End of products and projects -->
 
     <div id="location" class="section">

@@ -317,6 +317,11 @@ a {
   padding-left: 90px;
 }
 
+#pro-wrapper {
+  margin: auto;
+  max-width: 1160px;
+}
+
 @media (max-width: 1286px) {
   html body #wrapper #products-projects .pro {
     float: none;
