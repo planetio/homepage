@@ -479,4 +479,8 @@ a {
   #products-projects #products .content {
     width: 66%;
   }
+
+  #products-projects li {
+    margin-bottom: 20px;
+  }
 }
