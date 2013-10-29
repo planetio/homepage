@@ -30,7 +30,7 @@ ul {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: lato, "Myriad Pro";
+  font-family: lato, "Myriad Pro", helvetica neue, arial, sans serif;
   color: white;
 
 }
@@ -235,7 +235,14 @@ a {
     margin: 0 auto 50px;
     width: 478px;
     padding: 0;
+    text-align: center;
   }
+
+  #wrapper #who img {
+    margin-bottom: 15px;
+  }
+
+
 
   #wrapper #who .person:last-child {
     margin-bottom: 0;
@@ -460,6 +467,14 @@ a {
   }
 
   body {
-    background-position: center -191px;
+    background-position: center -250px;
+  }
+
+  .btn {
+    background: rgba(0,0,0,.5);
+  }
+
+  #products-projects #products .content {
+    width: 66%;
   }
 }

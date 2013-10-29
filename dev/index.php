@@ -66,8 +66,8 @@
           <img src="/assets/images/who/peter.jpg" alt="Peter Philips">
           <div class="content">
             <h4>Peter Philips<br>Software engineer &amp; sysadmin</h4>
-            <p>A vetren in software engineering with an intense focus in Ruby on Rails, test-driven development, and mindfulness.</p>
-            <p>Peter’s code is changing the world for the better. He is the founder of Recognizeapp.com and has done a lot of cool stuff for Tech For Progress.</p>
+            <p>A veteran in software engineering with an intense focus in Ruby on Rails, test-driven development, and mindfulness.</p>
+            <p>Peter’s code is changing the world for the better. He is the founder TechForProgress.com, a blog highlighting technologies ability to improve social progress.</p>
             <a href="/peter-philips/" target="_blank" class="btn">Peter's Resume</a>
           </div>
         </div>
