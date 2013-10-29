@@ -411,7 +411,7 @@ a {
   #wrapper #who .person {
     width: auto;
   }
-  
+
   #who .person img {
     display: inline-block;
     float: none;
@@ -445,5 +445,21 @@ a {
 
   .btn {
     padding: 15px 16px;
+  }
+
+  #how-steps img {
+    width: 75px;
+  }
+
+  #how-steps .content {
+    padding-left: 100px;
+  }
+
+  #how-steps li {
+    height: auto;
+  }
+
+  body {
+    background-position: center -191px;
   }
 }
