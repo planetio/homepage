@@ -19,5 +19,7 @@
   <meta property="og:description" content="A digital agency transforming great ideas into responsive web experiences." />
   <meta property="og:image" content="/assets/images/icon.png"/>
 	
+  
+  <link rel="stylesheet" media="print" href="/assets/css/print.css"/>
 	
 </head>

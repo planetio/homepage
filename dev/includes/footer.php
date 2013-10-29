@@ -1,10 +1,10 @@
-    <footer>
+    <div id="footer">
       <p>Planet interactive agency: Specializes in Ruby on Rails, JavaScript, HTML5, clean UI Design, Agile, and Lean strategy.</p>
       <p>Planet is founded by <a href="/peter-philips" target="_blank">Peter Philips</a> and <a href="/alex-grande" target="_blank">Alex Grande</a>.</p>
       <p>Blog: <a href="http://planet.io/blog">It's Not Rocket Science</a></p>
       <p>Locations: San Francisco and Chicago</p>
       
-    </footer>
+    </div>
   
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

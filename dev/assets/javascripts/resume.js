@@ -52,5 +52,6 @@
     
     $window.load(function() {
       setHeight();
+      $("#side-content .job:first").click();
     });  
 })();

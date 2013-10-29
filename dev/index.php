@@ -6,85 +6,177 @@
 ?>
 
 <body>
-  <div class="wrapper">    
-    <section id="intro">
-      <h1 class="offscreen">Planet | Interactive Agency | Web Development</h1>
-    </section>
-    
-    <section id="main">
-      <h2>An interactive agency transforming great ideas into responsive web experiences.</h2>
-      <a href="mailto:alex@planet.io" class="button">Contact us</a>
-    </section>
-    
-    <section id="portfolio">
-      <h2>Planet's web development &amp; web design work</h2>
-      <div id="lyte" class="item">
-        <div class="content">
-          <h3>Smart Group Messaging</h3>
-          <p>Lyte is a new way to communicate with groups. It automatically pulls important information to top of discussions.</p>
-          <p>
-            Create threads, or topics with groups and teams, while conducting real-time chat within threads.
-          </p>
-          <p>Lyte is a Turbolink-enabled Rails 4 responsive web application.</p>
-          <a href="http://www.lyte.io" class="link" target="_blank">Visit Lyte</a>
-        </div>
+  <div id="wrapper">    
+    <div id="header" class="clearfix">
+      <div class="side-wrapper-a">
+        <h1 class="logo">Planet</h1>
+        <p class="tagline">Web development</p>
       </div>
-      
-      <div id="recognize" class="item">
-        <div class="content">
-          <h3>Social Employee Recognition</h3>
-          <p>Recognize is a product that helps professionals officially endorse colleagues and coworker's skills and work.</p>
-          <p>Recognize includes Yammer integration, Single Sign On with Google, and is a fully responsive web application.</p>
-          <a href="http://www.recognizeapp.com" class="link" target="_blank">Visit Recognize</a>
-        </div>
+      <div class="side-wrapper-b">
+        <a href="mailto:alex@planet.io" class="btn">Contact us</a>
       </div>
-      <div id="vote" class="item">
-        <div class="content">
-          <h3>Helping America Vote</h3>
-          <p>For the 2012 election, we built a voting station finder for the Obama campaign.</p>
-            <p>Localized to Español, fully responsive to tablet and mobile, remembers state, utilizes HTML5 geolocation, and was built in under a week.</p>
-        </div>
-      </div>
-      
-      <div id="annotorious" class="item">
-        <div class="content">
-          <h3>Touch-enabled HTML5 Annotation Tool</h3>
-          <p>Latitude Network came Planet interactive agency to us to build out a responsive, tablet-ready annotation tool.</p>
-          <p>We utilized the Annotorious library, and contributed back by pull requesting touch events.</p>
-          <a href="https://github.com/planetio/annotorious" class="link" target="_blank">Visit the github source</a>
-        </div>
-      </div>
-      
-      <div id="clients" class="item">
-        <div class="content">
-          <h3>Interactive development for startups to Fortune 500</h3>
-          <p>Planet has helped Microsoft, Target, Seattle's Best, and many other companies with web development</p>
-        </div>
-      </div>
+    </div><!-- End of header -->
 
-    </section>
-    
-    
-    
-    <section id="provide">
-      <h2>Planet provides the latest web development technologies &amp; strategies</h2>
-      <img src="assets/images/portfolio/hacker.png" width="200" height="200" alt="Hacker">
-      <ul>
-        <li>Ruby on Rails 4 web application development.</li>
-        <li>JavaScript, CSS, and HTML5.</li>
-        <li>Lean-style experiments, including A/B tests.</li>
-        <li>Responsive web design.</li>
-        <li>Test-driven development.</li>
-        <li>Agile project management.</li>
+
+    <div class="masthead">
+      <div class="content">
+        <h2>Delivering Vision</h2>
+        <p class="subline">Modern Web Applications for Businesses.</p>
+      </div>
+    </div>
+
+    <div id="work" class="section">
+      <h3>Our Work</h3>
+      <ul id="logo-quilt" class='clearfix'>
+        <li>
+          <a href="http://www.iotlist.co" target="_blank">
+            <img src="/assets/images/work/iotlist.jpg" alt="IOTLIST">
+            <p>Internet of Things News</p>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.hackforbigchoices.com" target="_blank">
+            <img src="/assets/images/work/hfbc.jpg"  alt="Hack For Big Choices">
+            <p>Nonprofit Hackathon</p>
+          </a>
+        </li>
+        <li>
+          <a href="/assets/images/portfolio/vote.jpg" target="_blank">
+            <img src="/assets/images/work/obama.jpg"  alt="Obama 2012 Campaign">
+            <p>Obama Early Voting Station Finder</p>
+          </a>
+        </li>
+        <li>
+          <img src="/assets/images/work/seattlesbest.jpg"  alt="Seattle's Best Coffee">
+          <p>Seattle's Best Coffee Rebrand Launch</p>
+        </li>
+        <li>
+          <a href="http://latitu.de" target="_blank">
+            <img src="/assets/images/work/latitude.jpg"  alt="Latitude">
+            <p>Designer &amp; Client Collaboration</p>
+          </a>
+        </li>
       </ul>
-      <div class="clear"></div>
-      <div style="text-align: center;">
-        <a href="mailto:alex@planet.io" class="button" style="display:inline-block; margin: 20px 0;">Contact us for a free strategy meeting.</a>
-      </div>
-    </section>
-    
+    </div>
 
+    <div id="who" class="section">
+      <h3>Who We Are</h3>
+      <div class="person-wrapper clearfix">
+        <div class="person clearfix">
+          <img src="/assets/images/who/peter.jpg" alt="Peter Philips">
+          <div class="content">
+            <h4>Peter Philips<br>Software engineer &amp; sysadmin</h4>
+            <p>A vetren in software engineering with an intense focus in Ruby on Rails, test-driven development, and mindfulness.</p>
+            <p>Peter’s code is changing the world for the better. He is the founder of Recognizeapp.com and has done a lot of cool stuff for Tech For Progress.</p>
+            <a href="/peter-philips/" target="_blank" class="btn">Peter's Resume</a>
+          </div>
+        </div>
+
+        <div class="person clearfix">
+          <img src="/assets/images/who/alex.jpg" alt="Alex Grande">
+          <div class="content">
+            <h4>Alex Grande<br>Frontend  developer &amp; UX designer</h4>
+            <p>History creating web products for Target, Nintendo, and EA. Alex spent years working in mobile web at a consumer and enterprise levels.</p>
+            <p>Alex focuses at minimalist design that scales for large companies.</p>
+            <a href="/alex-grande/" target="_blank" class="btn ">Alex's Resume</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="how" class="section">
+      <h3>How we build applications</h3>
+      <ul id="how-steps">
+        <li>
+          <img src="/assets/images/how/rails.jpg" alt="Ruby on Rails">
+          <div class="content">
+            <h4>Rapid backend with Ruby on Rails</h4>
+            <p>We use Ruby on Rails to quickly build the backend layer for web applications.</p>
+          </div>
+        </li>
+        <li>
+          <img src="/assets/images/how/html5.jpg" alt="HTML5">
+          <div class="content">
+            <h4>Modern frontend development</h4>
+            <p>HTML5 technologies helps us create web applications with modern interation and with mobile support.</p>
+          </div>
+        </li>
+        <li>
+          <img src="/assets/images/how/people.jpg" alt="User-driven design">
+          <div class="content">
+            <h4>Clean minimal design</h4>
+            <p>Dedicated to user-driven design results in easy to use designs that are easy on the eye.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div id="products-projects" class="section clearfix">
+      <div id="products" class="pro">
+        <h3>Our products</h3>
+        <ul>
+          <li class="clearfix">
+            <img src="/assets/images/pro/recognize.png" alt="Recognize">
+            <div class="content">
+              <a href="http://www.recognizeapp.com" target="_blank"><h4>Recognizeapp.com</h4></a>
+              <p>An employee appreciation system for businesses to socially praise their best.</p>
+            </div>
+          </li>
+          <li class="clearfix">
+            <img src="/assets/images/pro/lyte.png" alt="lyte">
+            <div class="content">
+              <a href="http://lyte.io" target="_blank"><h4>Lyte.io</h4></a>
+              <p>A project communcation app we use to organize projects with our clients.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div id="projects" class="pro">
+        <h3>Open source projects</h3>
+        <ul>
+          <li class="clearfix">
+            <img src="/assets/images/pro/annotorious.png" alt="annotorious">
+            <div class="content">
+              <a href="http://annotorious.github.io/" target="_blank"><h4>Annotorious</h4></a>
+              <p>An annotation tool for images. We provided the touch support.</p>
+            </div>
+          </li>
+          <li class="clearfix">
+            <img src="/assets/images/pro/modernizr.png" alt="modernizr">
+            <div class="content">
+              <a href="http://modernizr.com/" target="_blank"><h4>Modernizr</h4></a>
+              <p>An JavaScript library to test browser capabilities.</p>
+            </div>
+          </li>
+           <li class="clearfix">
+            <img src="/assets/images/pro/capistrano.png" alt="capistrano">
+            <div class="content">
+              <a href="http://www.capistranorb.com/" target="_blank"><h4>Capistrano</h4></a>
+              <p>A Ruby library to help with application deployments.</p>
+            </div>
+          </li>         
+        </ul>
+      </div>
+
+    </div><!-- End of products and projects -->
+
+    <div id="location" class="section">
+      <div class="content">
+        <h3>Visit us at Runway Incuabator, San Francisco</h3>
+        <p class="subline">1355 Market St. #488, 94103, CA</p>
+      </div>
+    </div>
+
+    <div id="contact-wrapper" class="section">
+      <h3>What is your vision? Let's build it.</h3>
+      <a href="mailto:alex@planet.io" class="btn btn-lg">Contact Us</a>
+    </div>
+
+  </div><!-- End of wrapper -->
   
-    <?php include("includes/footer.php")?>
+
+  <?php include("includes/footer.php")?>
 </body>
 </html>

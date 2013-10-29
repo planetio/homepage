@@ -8,7 +8,7 @@
 
 <body class="sub-page">
   
-  <link rel="stylesheet" href="_ui/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="_ui/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
   
   <section class="wrapper">
     
@@ -79,20 +79,13 @@
       <div class="job mysql systems servers opensource php wordpress apache devops tcp" >
         <h3>IT Director, NWBCCC 2009 - 2011 </h3>
         <ul>    
-          <li>Maintained a WAN infrastructure which includes a 50 station main office and 3 smaller 
-remote offices connected via IPSEC VPN.</li>
+          <li>Maintained a WAN infrastructure which includes a 50 station main office and 3 smaller offices connected via IPSEC VPN.</li>
           <li>Maintained the coalition’s website and linux and windows based intranet servers.</li>
-          <li>Responsible for all research, purchase, and execution of all technology equipment and 
-contracts utilized by the coalition.</li>
-          <li>Managed the transition from a proprietary organizational database to the open source 
-database, CiviCrm.</li>
-          <li>Managed a complete network infrastructure overhaul by managing 4 separate contractors. 
-The overhaul included a bandwidth upgrade and the transition from a linux based server 
-architecture to a Windows Active Directory based architecture</li>
+          <li>Responsible for all research, purchase, and execution of all technology equipment and contracts utilized by the coalition.</li>
+          <li>Managed the transition from a proprietary organizational database to the open source database, CiviCrm.</li>
+          <li>Managed a complete network infrastructure overhaul by managing 4 separate contractors. The overhaul included a bandwidth upgrade and the transition from a linux based server architecture to a Windows Active Directory based architecture</li>
           <li>Assisted with social media campaigns through flickr, twitter, and facebook</li>
-          <li>Acted as primary photographer, videographer, and video editor. Also, delegated coverage 
-and editing responsibilities to 5 full time staff community organizers and a multitude of 
-volunteers</li>
+          <li>Acted as primary photographer, videographer, and video editor. Also, delegated coverage and editing responsibilities to 5 full time staff community organizers and a multitude of volunteers</li>
 
         </ul>
       </div>
@@ -109,15 +102,10 @@ volunteers</li>
       <div class="job ruby ror rspec mysql postgresql ci devops cc jquery js nginx apache agile ecommerce systems" >
         <h3>Lead Engineer, Lifebooker LLC 2006 - 2008 </h3>
         <ul>    
-          <li>Managed a team of 4 developers (front & Back end) to design and develop a highly 
-transactional and concurrent online reservation system using all aspects of the Ruby-onRails framework including AJAX technologies with a MySQL backend database</li>
-          <li>Developed custom-built dynamic calendaring system to manage reservations utilizing AJAX
-technology with backend rule engine using the Rools gem to manage booking conflicts</li>
-          <li>Developed primary search algorithm using asynchronous daemon processes in combination 
-with MemCache and HTML, CSS, Javascript and image caching to provide fast, efficient search 
-results</li>
-           <li>Implemented a continuous integration setup utilizing CruiseControl in order to 
-consistently drive our test suites daily after changes to Subversion source repositories</li>
+          <li>Managed a team of 4 developers (front & Back end) to design and develop a highly transactional and concurrent online reservation system using all aspects of the Ruby-onRails framework including AJAX technologies with a MySQL backend database</li>
+          <li>Developed custom-built dynamic calendaring system to manage reservations utilizing AJAX technology with backend rule engine using the Rools gem to manage booking conflicts</li>
+          <li>Developed primary search algorithm using asynchronous daemon processes in combination with MemCache and HTML, CSS, Javascript and image caching to provide fast, efficient search results</li>
+           <li>Implemented a continuous integration setup utilizing CruiseControl in order to consistently drive our test suites daily after changes to Subversion source repositories</li>
         </ul>
       </div>
 

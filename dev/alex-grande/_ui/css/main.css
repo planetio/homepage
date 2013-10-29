@@ -1,3 +1,7 @@
+body {
+  background: black;
+}
+
 #main-content, #side-content {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
@@ -35,12 +39,12 @@
 }
 
 #main-content li.hover {
-    background: #658385;
+    background: #3C3C3C;
 }
 
 #main-content li:not(.hover):hover,
 #side-content .job:not(.hover):hover {
-  background: #658385;
+  background: #3C3C3C;
 }
 
 #main-content li.hover {display: block;}
@@ -57,7 +61,7 @@
 }
 
 #side-content .job.hover {
-    background: #658385;
+    background: #3C3C3C;
 }
 
 #side-content h2 {
@@ -115,6 +119,19 @@ html {
   border-bottom: 0 !important;
 }
 
+
+@media print {
+  #main-content {
+    display: none;
+  }
+  
+  #side-content {
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+
+
 @media (max-width: 480px) {
   #main-content {
     display: none !important;
@@ -123,5 +140,10 @@ html {
   header a {
     width: 40px;
     overflow: hidden;
+  }
+  
+  header h1 {
+    font-size: 16px !important;
+    margin-top: 8px !important;
   }
 }

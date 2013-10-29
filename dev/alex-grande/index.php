@@ -7,7 +7,6 @@
 ?>
 
 <body class="sub-page">
-  
   <link rel="stylesheet" href="_ui/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
   
   <section class="wrapper">
@@ -20,7 +19,7 @@
         <li id="html">HTML5  </li>
         <li id="ux">UX Design</li>
         <li id='ui'>UI Design</li>
-        <li id="stategy">Strategy</li>
+        <li id="analytics">Analytics</li>
         <li id='seo'>SEO</li>
         <li id='mobile'>Mobile</li>
         <li id="ror">Ruby on Rails</li>
@@ -41,7 +40,7 @@
     </section>
     
     <aside id="side-content" class="content-buckets">
-      <div class="job ux ui javascript css seo mobile html ror stategy">
+      <div class="job ux ui javascript css seo mobile html ror analytics">
         <h3>Co-Founder, Planet (planet.io) 8/2012 - present</h3>
         <ul>    
           <li><strong>Conceptualized and built a social employee recognition platform, <a href="http://www.recognizeapp.com">Recognize</a>.</strong></li>
@@ -53,7 +52,7 @@
           <li>Write blog posts for <a href="http://blog.recognizeapp.com">Recognize</a> and <a href="http://planet.io/blog">Planet</a>.</li>
         </ul>
       </div>
-      <div class="job ux ui javascript css fb-graph webkit ror android seo mobile jquery html stategy" >
+      <div class="job ux ui javascript css fb-graph webkit ror android seo mobile jquery html analytics" >
         <h3>Freelance Web Developer / Information Architect (alexgrande.com) 4/2012 - present</h3>
         <ul>    
           <li>Wireframing coherent and design usable experiences.</li> 
@@ -79,7 +78,7 @@
           <li>"You are a powerful man." - CEO / Founder.</li>
         </ul>
       </div>
-      <div class="job javascript googleapi css jquery html webkit phonegap ios android blackberry ux ui dom java jquerymobile ror mysql sqlite ydl php mobile stategy">
+      <div class="job javascript googleapi css jquery html webkit phonegap ios android blackberry ux ui dom java jquerymobile ror mysql sqlite ydl php mobile">
       
       <h3>Mobile Developer, Designer, Co-Founder, Pharaoh (wearepharaoh.com), 2/2010 - 11/2010</h3>
       
