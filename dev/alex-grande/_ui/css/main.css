@@ -119,6 +119,9 @@ html {
   border-bottom: 0 !important;
 }
 
+#contact-header {
+  display: none;
+}
 
 @media print {
   #main-content {

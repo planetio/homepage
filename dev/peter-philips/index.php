@@ -1,14 +1,13 @@
 <?php
     $pathDepth = '';
+    $user = array("name" => "Peter Philips", "phone" => "347.622.9007", "email" => "peter@planet.io");
     $pageTitle = 'Peter Philips\'s Resume';
     $pageId = '';
     include('../includes/head.php');
-    include('../includes/header.php');
 ?>
 
 <body class="sub-page">
-  
-  <link rel="stylesheet" href="_ui/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <?php  include('../includes/header.php'); ?>  
   
   <section class="wrapper">
     
