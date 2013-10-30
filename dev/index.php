@@ -29,10 +29,10 @@
       <h3>Our Work</h3>
       <ul id="logo-quilt" class='clearfix'>
         <li>
-          <a href="http://www.iotlist.co" target="_blank">
-            <img src="/assets/images/work/iotlist.jpg" alt="IOTLIST">
+          <!-- <a href="http://www.iotlist.co" target="_blank">-->
+            <img src="/assets/images/work/iotlist.jpg">
             <p>Internet of Things News</p>
-          </a>
+          <!--</a>-->
         </li>
         <li>
           <a href="http://www.hackforbigchoices.com" target="_blank">
