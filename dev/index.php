@@ -99,14 +99,14 @@
           <img src="/assets/images/how/html5.jpg" alt="HTML5">
           <div class="content">
             <h4>Modern frontend development</h4>
-            <p>HTML5 technologies helps us create web applications with modern interation and with mobile support.</p>
+            <p>HTML5 technologies helps us create web applications with modern interactions and with mobile support.</p>
           </div>
         </li>
         <li>
           <img src="/assets/images/how/people.jpg" alt="User-driven design">
           <div class="content">
             <h4>Clean minimal design</h4>
-            <p>Dedicated to user-driven design results in easy to use designs that are easy on the eye.</p>
+            <p>Dedicated to user-driven design to create focused, easy-to-use experiences.</p>
           </div>
         </li>
       </ul>
