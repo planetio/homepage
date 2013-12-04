@@ -165,7 +165,7 @@
 
     <div id="location" class="section">
       <div class="content">
-        <h3>Visit Us At Runway Incuabator, San Francisco</h3>
+        <h3>Visit Us At Runway Incubator, San Francisco</h3>
         <p class="subline">1355 Market St. #488, 94103, CA</p>
       </div>
     </div>
