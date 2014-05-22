@@ -20,8 +20,9 @@
   <meta property="og:image" content="/assets/images/icon.png"/>
 
 
+  <link rel="stylesheet" href="/assets/stylesheets/resume/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <link rel="stylesheet" href="/assets/stylesheets/resume/print.css" type="text/css" media="print" title="no title" charset="utf-8" />
   <link rel="stylesheet" href="/assets/stylesheets/all.css" type="text/css" media="screen" title="no title" charset="utf-8">
-  <link rel="stylesheet" href="_ui/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-  <link rel="stylesheet" href="_ui/css/print.css" type="text/css" media="print" title="no title" charset="utf-8" />
+
 	
 </head>

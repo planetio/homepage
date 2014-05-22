@@ -1,0 +1,95 @@
+
+
+Scope of Work
+
+The work performed is scoped to the design and development of a Ruby on Rails web application. The code base will include popular open source frameworks, existing tools and widgets perprioerty to Planet, and custom code built to specification for AdorDecor. 
+
+All design will follow industry best practices, but will be accepted only once validated by user-driven testing. UI frameworks, such as subsets of Bootstrap can be used to speed up design.
+
+Experiments performed utilize Google Analytics Experiments and Ruby on Rails A/B testing gems. Other analytics and services will be adviced only when necessary, such as server health dashboards and funnel analytics.
+
+
+Location of Work
+
+Planet is in one of the core hubs of Silicon Valley at Runway Incubator. Runway is located in the same building as Twitter at 1433 Market St., 94103 San Francisco, CA.
+
+If additional resources are necessary, work is peformed in sister agencies in Seattle, Chicago, and San Francisco.
+
+
+Period of Performance
+
+Fourty hours a week will be billed for a period of about two months, or 8 weeks. Will is performed primarily at Runway.
+
+
+Delivereables Schedule
+
+Day 1: 
+- Project kick off meeting pin points the value proposition, primary hypothesis, and initial MVP Homepage experiment. 
+- MVP Homepage wireframe and design is drawn on paper with client. 
+- MVP Homepage copywriting is inserted into a CSS homepage design based on the paper wireframe.
+- Experiment in Google Analytics Experiment is setup.
+
+Day 2: 
+- MVP Homepage design and copywriting is reevaluated after a nights sleep. After copywriting changes are set and design is refined, MVP Homepage is launched and experiment is started to validate AdorDecor's value. 
+- Google Adwords is started split testing the MVP homepage's first experiment.
+
+Week 1:
+- Styleguide is developed based on homepage CSS design.
+- Initial MVP Homepage experiment yields results, and second experiment is deployed.
+- User Authorization and web application skelton is created. This includes sign up, forgot password, email confirmation, and user settings.
+- Mood board MVP is started
+
+Week 2:
+- If initial MVP homepage experiments yield positive results, we create a Mood Board MVP where we allow clients to create their mood Board, but the MVP will be mainly manual to continue to validate AdorDecor's value.
+- If the initial MVP homepage experiment yields negative results, AdorDecor and Planet must decide to either pivot and take what we learned thus far and attempt a new homepage MVP experiment that validates a new hypothesis. 
+- Functional tests are written to ensure functionality will not unexpected break on production.
+- Server architecture is developed with staging and production environments. Staging will act as a testing environment as well to save AdorDecor money.
+
+Week 3: 
+- Experiments will be evaluated. AdorDecor can confidently say with quantitive results that clients are willing to create Mood Boards.
+- Planet and AdorDecor will finish the Mood Board functionality. Each view is built as one unit of work and tested with a small subset of potential users based off Week 2's MVP learning.
+- We will create an designer questionnaire signup MVP to test how designers fill out the form.
+
+Week 4:
+- Designer Mood Board Projects MVP will be started. We will take the clients input and create a manual static version of a list of current projects. We will drive designers to these pages and see if they are willing to sign up to compete. The process again will be manual via email. 
+
+Week 5:
+- Taken from what we learn from the the designer questionnaire signup and projects flow, we will complete the projects flow.
+
+Week 6:
+- Reviews MVP is started and tested.
+
+Week 7:
+- Review MVP is finalized. Site is almost complete.
+
+Week 8:
+- Internet Explorer bugs are fixed if applicable to website browser metrics.
+- Flows are confirmed to be useable and complete.
+- User Acceptance testing is continuous through the project, but the client gives a final say the project is ready.
+- Any additional small tweaks.
+- Full site is complete with users flowing through the application from day 2.
+
+
+Applicable Standards
+
+We follow best practices for ARIA accessibility, Lean user experience, object oriented programming, modular front end assets, and fast website performance.
+
+
+Acceptance Criteria
+
+The web application is accepted by validating the value proposition through quantitive user-driven experiments. Furthermore, application is accepted when client agrees the design and the functionality is as expected.
+
+
+Special Requirements
+
+No special requirements are necessary.
+
+
+Type of Contract / Payment Schedule
+
+Planet charges $100/hr, and requires 40 hours of work to be prepurchased at $4000. Payments are due every two weeks after the initial payment. Itemized invoices can be viewed by AdorDecor at any point and are broken down to about every hour of work performed.
+
+
+Miscellaneous
+
+Planet is driven to ensure the user finds value in the features we build and to avoid wastely building. Through testing both the code base and the user, we strive to create a product that generates revenue for AdorDeco.

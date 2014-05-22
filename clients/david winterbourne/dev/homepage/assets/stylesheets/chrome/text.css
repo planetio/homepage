@@ -1,0 +1,22 @@
+@font-face
+{
+font-family: airstream;
+src: url('../../fonts/Airstream.ttf')
+}
+
+#logo {
+    font-family: airstream, arial, sans-serif; 
+}
+
+body {
+  font-family: helvetica neue, arial, sans-serif;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+

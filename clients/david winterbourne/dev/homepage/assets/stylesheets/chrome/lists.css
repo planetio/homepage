@@ -1,0 +1,20 @@
+.check-list li{
+  list-style-image:url('../../images/icons/check-green.png');
+  list-style-position: outside;
+  margin-left: 27px;
+  margin-bottom: 10px;
+}
+
+.bullet-list li {
+  color: #6DBA02;
+  font-size: 35px;
+  line-height: 27px;
+}
+
+.bullet-list span {
+  color: #333;
+  font-size: 18px;
+  position: relative;
+  top: -6px;
+  left: -10px;
+}

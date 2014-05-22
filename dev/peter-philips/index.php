@@ -54,9 +54,9 @@
     
     <aside id="side-content" class="content-buckets">
       <div class="job ruby ror rspec mysql aws git oauth systems agile servers js opensource apache jquery devops">
-        <h3>Co-Founder, Planet (planet.io) 8/2012 - present</h3>
+        <h3>Co-Founder, CTO, Planet (planet.io) 8/2012 - present</h3>
         <ul> 
-          <li>Conceptualized, launched and scaled social web apps: <a href="http://recognizeapp.com" target="_blank">Recognize</a>, <a href="http://lyte.io" target="_blank">Lyte</a>.</li>
+          <li>Conceptualized, launched and scaled social web apps: <a href="http://recognizeapp.com" target="_blank">Recognize</a>.</li>
           <li>Designed and developed scalable application architecture using test driven development.</li>
           <li>Automated a deployment architecture across aws infrastructure using capistrano</li>
           <li>Scaled out server architectures using Amazon web services, linode, and heroku.</li>

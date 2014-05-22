@@ -13,6 +13,7 @@
     
     <section id="main-content" class="content-buckets">
       <ul>
+        <li id="product">Product Strategy</li>
         <li id="javascript">Javascript</li>
         <li id="css">CSS</li>
         <li id="jquery">jQuery</li>
@@ -34,25 +35,22 @@
         <li id="android">Android</li>
         <li id="jquerymobile">jQueryMobile</li>
         <li id="ada">ADA standards</li>
-        <li id="php">PHP </li>
       </ul>
  
     </section>
     
     <aside id="side-content" class="content-buckets">
-      <div class="job ux ui javascript css seo mobile html ror analytics">
-        <h3>Co-Founder, Planet (planet.io) 8/2012 - present</h3>
+      <div class="job ux ui javascript css seo mobile html ror analytics product">
+        <h3>Product Strategist, Planet (planet.io) 8/2012 - present</h3>
         <ul>    
           <li><strong>Conceptualized and built a social employee recognition platform, <a href="http://www.recognizeapp.com">Recognize</a>.</strong></li>
-          <li>Performing business development by interviewing customers and finding agency work.</li>
-          <li>Manage an international team of four technology professionals.</li>
-          <li>Architected the flow of web apps, including Recognize and our to be released app, <a href="http://lyte.io">Lyte</a>.</li>
+          <li>Performing business development by interviewing customers.</li>
+          <li>Architected the flow of web apps, including Recognize and other startup web applications.</li>
           <li>Designed responsive web applications for Mobile, Tablet, and Desktop.</li>
-          <li>Perform a/b testing and detailed analytics using Mixpanel and RoR.</li>
-          <li>Write blog posts for <a href="http://blog.recognizeapp.com">Recognize</a> and <a href="http://planet.io/blog">Planet</a>.</li>
+          <li>Perform a/b testing and detailed analytics using Mixpanel, Optimizely, HeapAnalytics, and RoR.</li>
         </ul>
       </div>
-      <div class="job ux ui javascript css fb-graph webkit ror android seo mobile jquery html analytics" >
+      <div class="job ux ui javascript css fb-graph webkit ror android seo mobile jquery html analytics product" >
         <h3>Freelance Web Developer / Information Architect (alexgrande.com) 4/2012 - present</h3>
         <ul>    
           <li>Wireframing coherent and design usable experiences.</li> 
@@ -78,7 +76,7 @@
           <li>"You are a powerful man." - CEO / Founder.</li>
         </ul>
       </div>
-      <div class="job javascript googleapi css jquery html webkit phonegap ios android blackberry ux ui dom java jquerymobile ror mysql sqlite ydl php mobile">
+      <div class="job javascript googleapi css jquery html webkit phonegap ios android blackberry ux ui dom java jquerymobile ror mysql sqlite ydl mobile">
       
       <h3>Mobile Developer, Designer, Co-Founder, Pharaoh (wearepharaoh.com), 2/2010 - 11/2010</h3>
       
@@ -90,7 +88,7 @@
         <li><strong>Received over a million impressions a month on native Android and iPhone apps.</strong></li>
         <li>Used government open data to build mobile web apps.</li></ul>
         </div>
-        <div class="job ror javascript css jquery dom html ajax mobile ada php">
+        <div class="job ror javascript css jquery dom html ajax mobile ada">
         
       <h3>Web Developer, Pop (pop.us), 4/2008 - 2/2010</h3>
       <ul>
@@ -106,7 +104,7 @@
       <li>Refactored javascript and CSS to make the website more efficient. 
       <li>Created a javascript medical experiment sign up form with Google Maps, Ajax, and CSS.</li></ul>
       </div>
-      <div class="job php javascript css">
+      <div class="job javascript css">
       
       <h3>Web Developer, Rory Martin (rorymartin.com), 9/2006 - 11/2007</h3>
       <ul><li> Utilized Blogger, Wordpress, and Joomla as Content Management Systems. </li>
@@ -114,7 +112,7 @@
       </div>
 
       <h2>Education</h2>
-      <h3>Psychology, Western Washington University</h3>
+      <h3>Psychology, Western Washington University, 2004</h3>
       <ul style="padding-bottom: 10px;">
         <li>Managed Visual Perception Cognition Lab and lead visual memory experiment with over 100 participants.</li>           
         <li><strong>Published author in social cognition.</strong></li>

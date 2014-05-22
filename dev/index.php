@@ -29,10 +29,10 @@
       <h3>Our Work</h3>
       <ul id="logo-quilt" class='clearfix'>
         <li>
-          <!-- <a href="http://www.iotlist.co" target="_blank">-->
+          <a href="http://www.iotlist.co" target="_blank">
             <img src="/assets/images/work/iotlist.jpg">
             <p>Internet of Things News</p>
-          <!--</a>-->
+          </a>
         </li>
         <li>
           <a href="http://www.hackforbigchoices.com" target="_blank">
@@ -106,7 +106,7 @@
           <img src="/assets/images/how/people.jpg" alt="User-driven design">
           <div class="content">
             <h4>Clean minimal design</h4>
-            <p>Dedicated to user-driven design to create focused, easy-to-use experiences.</p>
+            <p>Dedicated to user-driven design to create focused, easy-to-use applications.</p>
           </div>
         </li>
       </ul>
@@ -115,20 +115,13 @@
     <div id="products-projects" class="section clearfix">
       <div id="pro-wrapper">
         <div id="products" class="pro">
-          <h3>Our Products</h3>
+          <h3>Our product: Recognize</h3>
           <ul>
             <li class="clearfix">
               <img src="/assets/images/pro/recognize.png" alt="Recognize">
               <div class="content">
                 <a href="http://www.recognizeapp.com" target="_blank"><h4>Recognizeapp.com</h4></a>
-                <p>An employee appreciation system for businesses to socially praise their best.</p>
-              </div>
-            </li>
-            <li class="clearfix">
-              <img src="/assets/images/pro/lyte.png" alt="lyte">
-              <div class="content">
-                <a href="http://lyte.io" target="_blank"><h4>Lyte.io</h4></a>
-                <p>A project communcation app we use to organize projects with our clients.</p>
+                <p>An employee appreciation platform for businesses to motivate their workforce and celebrate success.</p>
               </div>
             </li>
           </ul>

@@ -1,0 +1,32 @@
+body {
+  background: #d0b9b0 url("../../images/chrome/bedge_grunge.png");
+}
+
+#wrapper {
+  max-width: 2000px;
+  margin: auto;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  min-height: 100%
+}
+ 
+#logo {
+  color: #4e2915;
+}
+
+ul, ol, li {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+#footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+#footer p {
+  color: #999;
+}

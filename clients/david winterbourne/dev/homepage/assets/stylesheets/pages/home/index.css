@@ -1,0 +1,118 @@
+body#home-index #bg {
+  background: transparent url(../../../images/home/index/bg.jpg) center 0 no-repeat;
+  background-size: 100% auto;
+}
+
+#home-index h2 {
+  font-family: helvetica neue, arial, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 55px;
+}
+
+body#home-index #mast,
+body#home-index #mast h2 {
+  color: white;
+}
+
+#home-index #mast .content .btn {
+  font-size: 30px;
+}
+
+#home-index .lead {
+  font-size: 28px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#home-index #screenshot {
+  text-align: center;
+}
+
+#home-index #screenshot img {
+  width: 50%;
+}
+
+#home-index #brad-buckets {
+  background: #d0b9b0 url("../../../images/chrome/bedge_grunge.png");
+}
+
+#home-index #mast .content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#home-index #brad-buckets .bucket {
+  padding: 0px 0 50px;
+  border-right: 1px solid gray;
+  height: 230px; 
+  background: rgba(255,255,255,.3);
+}
+
+#home-index #brad-buckets .bucket:last-child {
+  border-right: 0;
+}
+
+#home-index #brad-buckets .inner {
+  padding: 0 20px;
+}
+
+#home-index #brad-buckets .row {
+  margin: 0;
+}
+
+#home-index #brad-buckets ul {
+  font-size: 18px;
+}
+
+@media (max-width: 1263px) {
+  #home-index #screenshot img {
+    width: 60%;
+  }
+}
+
+
+@media (max-width: 1087px) {
+  #home-index #screenshot img {
+    width: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+  body#home-index #bg {
+    background-size: auto auto;
+  }
+
+  #home-index #screenshot img {
+    width: 90%;
+  }
+
+  #home-index #brad-buckets .bucket {
+    padding: 20px;
+    margin-bottom: 5px;
+  }
+
+  #home-index #brad-buckets .bucket:last-child {
+    margin-bottom: 0;
+   }
+}
+
+@media (max-width: 480px) {
+  #home-index #mast {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  #home-index #mast h2 {
+    font-size: 30px;
+  }
+
+  #home-index #mast .lead {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  #home-index #mast .btn {
+    font-size: 18px !important;
+  }
+}

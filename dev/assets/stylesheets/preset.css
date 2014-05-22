@@ -50,7 +50,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
    Links
    ========================================================================== */
 
-a { color: #878787;}
+a { color: #f4f4f4; text-decoration: underline; font-weight: bold;}
 a:hover { color: #fff; }
 a:focus { outline: thin dotted; }
 

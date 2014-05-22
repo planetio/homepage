@@ -1,8 +1,6 @@
 <header id="main-header">
-    <a href="/">
-      <img src="/assets/images/logo.png" alt="Planet.io">
-    </a>
-    <h1><?php echo $pageTitle; ?></h1>
+    <a href="/"><h1 class="logo">Planet</h1></a>
+    <p class="tagline">Alex Grande</p>
 </header>
 
 <header id="contact-header">
