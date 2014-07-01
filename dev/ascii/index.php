@@ -10,8 +10,6 @@
 		
 	<link rel="stylesheet" href="/ascii/_ui/css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	
 	
 	<title></title>
 </head>
@@ -157,9 +155,5 @@
     </ul>
   
   
-  <script src="_ui/js/implicit.js" type="text/javascript" charset="utf-8"></script>
-  
-  <script src="_ui/js/main.js" type="text/javascript" charset="utf-8"></script>
-
 </body>
 </html>

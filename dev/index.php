@@ -115,13 +115,13 @@
     <div id="products-projects" class="section clearfix">
       <div id="pro-wrapper">
         <div id="products" class="pro">
-          <h3>Our product: Recognize</h3>
+          <h3>Recognize</h3>
           <ul>
             <li class="clearfix">
               <img src="/assets/images/pro/recognize.png" alt="Recognize">
               <div class="content">
                 <a href="http://www.recognizeapp.com" target="_blank"><h4>Recognizeapp.com</h4></a>
-                <p>An employee appreciation platform for businesses to motivate their workforce and celebrate success.</p>
+                <p>An integrated peer-to-peer employee recognition platform for businesses to analyze values and celebrate success.</p>
               </div>
             </li>
           </ul>

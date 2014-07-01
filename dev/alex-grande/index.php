@@ -13,17 +13,18 @@
     
     <section id="main-content" class="content-buckets">
       <ul>
-        <li id="product">Product Strategy</li>
         <li id="javascript">Javascript</li>
         <li id="css">CSS</li>
+        <li id="product">Product Strategy</li>
+        <li id="ux">UX Design</li>
+        <li id="analytics">Analytics</li>
+        <li id="ror">Ruby on Rails</li>
+        <li id='mobile'>Mobile</li>
+
+        <li id='ui'>UI Design</li>
+        <li id='seo'>SEO</li>
         <li id="jquery">jQuery</li>
         <li id="html">HTML5  </li>
-        <li id="ux">UX Design</li>
-        <li id='ui'>UI Design</li>
-        <li id="analytics">Analytics</li>
-        <li id='seo'>SEO</li>
-        <li id='mobile'>Mobile</li>
-        <li id="ror">Ruby on Rails</li>
         <li id="webkit">Webkit </li>
         <li id="phonegap">PhoneGap</li>
         <li id="ios">Mobile Safari</li>
